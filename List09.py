@@ -6,4 +6,10 @@ def main(list1):
     Returns:
         bool: return answer
     """
-    return
+    a=len(list1)
+    a=int(a)
+    if sum(list1)==(list1[0])*a :
+        return True
+    else:
+        return False
+print(main([1,0,0,0,0]))
